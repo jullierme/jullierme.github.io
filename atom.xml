@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title><![CDATA[Jullierme Barros]]></title>
+  <subtitle><![CDATA[Html5 e afins]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="jullierme.github.io//"/>
+  <updated>2015-07-24T21:58:15.879Z</updated>
+  <id>jullierme.github.io//</id>
+  
+  <author>
+    <name><![CDATA[Jullierme Barros]]></name>
+    <email><![CDATA[julliermebarros@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Iniciando com bower]]></title>
+    <link href="jullierme.github.io/2015/07/24/Iniciando-com-bower/"/>
+    <id>jullierme.github.io/2015/07/24/Iniciando-com-bower/</id>
+    <published>2015-07-24T21:35:30.000Z</published>
+    <updated>2015-07-24T21:58:15.879Z</updated>
+    <content type="html"><![CDATA[<h2 id="Por_que_utilizar_o_bower?">Por que utilizar o bower?</h2><p>Sabe como funciona o MAVEN para gerenciamento de dependências Java? Pois bem, o bower é uma ferramenta de gerenciamento de dependências de projetos client-side, similar ao maven. Ele pode ser adicionado em qualquer projeto, independente do back-end ser Java, Node, etc.</p>
+<p>Imagina que você tem um projeto html/javascript e precisa ficar fazendo download manual de todos os scripts/dependências que seu sistema utiliza. E o ciclo se repete a cada nova versão de uma dependência. Isso é trabalhoso e improdutivo.</p>
+<p>Com o bower, você pode adicionar uma nova dependência configurando um único arquivo (bower.json) ou simplesmente digitar um comando no prompt do windows.</p>
+<h2 id="Vamos_lá…">Vamos lá…</h2><p>Primeiro, certifique-se que em sua máquina esta instalado o <a href="https://nodejs.org/download/" target="_blank" rel="external">Nodejs</a>.</p>
+<p>Falaremos sobre o nodejs outro post, por hora, apenas precisamos instalá-lo, pois o bower roda “em cima” do nodejs.</p>
+<h3 id="GO_GO_GO">GO GO GO</h3><p>Primeiramente, precisamos instalar o bower no nodejs, de forma que possa ser utilziado por qualquer projeto. Para isso abra o prompt de comando (modo administrador) e digite o seguinte comando:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g bower</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="Por_que_utilizar_o_bower?">Por que utilizar o bower?</h2><p>Sabe como funciona o MAVEN para gerenciamento de dependências Java? Pois]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
