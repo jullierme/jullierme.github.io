@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Simples assim!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="jullierme.github.io//"/>
-  <updated>2015-07-25T20:11:42.814Z</updated>
+  <updated>2015-07-27T13:20:11.164Z</updated>
   <id>jullierme.github.io//</id>
   
   <author>
@@ -16,13 +16,12 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="jullierme.github.io/2015/07/24/Iniciando-com-bower/"/>
-    <id>jullierme.github.io/2015/07/24/Iniciando-com-bower/</id>
-    <published>2015-07-24T21:35:30.000Z</published>
-    <updated>2015-07-25T20:11:42.814Z</updated>
-    <content type="html"><![CDATA[
-<h2 id="Por_que_utilizar_o_bower?">Por que utilizar o bower?</h2><p>Sabe como funciona o MAVEN para gerenciamento de dependências Java? Pois bem, o bower é uma ferramenta de gerenciamento de dependências de projetos client-side, similar ao maven. Ele pode ser adicionado em qualquer projeto, independente do back-end ser Java, Node, etc.</p>
+    <title><![CDATA[Iniciando com bower]]></title>
+    <link href="jullierme.github.io/2015/07/27/Iniciando-com-bower/"/>
+    <id>jullierme.github.io/2015/07/27/Iniciando-com-bower/</id>
+    <published>2015-07-27T13:20:11.166Z</published>
+    <updated>2015-07-27T13:20:11.164Z</updated>
+    <content type="html"><![CDATA[<h2 id="Por_que_utilizar_o_bower?">Por que utilizar o bower?</h2><p>Sabe como funciona o MAVEN para gerenciamento de dependências Java? Pois bem, o bower é uma ferramenta de gerenciamento de dependências de projetos client-side, similar ao maven. Ele pode ser adicionado em qualquer projeto, independente do back-end ser Java, Node, etc.</p>
 <p>Imagina que você tem um projeto html/javascript e precisa ficar fazendo download manual de todos os scripts/dependências que seu sistema utiliza. E o ciclo se repete a cada nova versão de uma dependência. Isso é trabalhoso e improdutivo.</p>
 <p>Com o bower, você pode adicionar uma nova dependência configurando um único arquivo (bower.json) ou simplesmente digitar um comando no prompt do windows.</p>
 <a id="more"></a>
