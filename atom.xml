@@ -65,8 +65,9 @@
     <link href="jullierme.github.io/Iniciando-com-bower/"/>
     <id>jullierme.github.io/Iniciando-com-bower/</id>
     <published>2015-07-27T03:00:00.000Z</published>
-    <updated>2015-08-05T01:29:28.127Z</updated>
-    <content type="html"><![CDATA[<h2 id="Por_que_utilizar_o_bower?">Por que utilizar o bower?</h2><p>Sabe como funciona o MAVEN para gerenciamento de dependências Java? Pois bem, o bower é uma ferramenta de gerenciamento de dependências de projetos client-side, similar ao maven. Ele pode ser adicionado em qualquer projeto, independente do back-end ser Java, Node, etc.</p>
+    <updated>2015-08-05T16:45:35.603Z</updated>
+    <content type="html"><![CDATA[<p><img src="/Iniciando-com-bower/banner.jpg" alt=""></p>
+<h2 id="Por_que_utilizar_o_bower?">Por que utilizar o bower?</h2><p>Sabe como funciona o MAVEN para gerenciamento de dependências Java? Pois bem, o bower é uma ferramenta de gerenciamento de dependências de projetos client-side, similar ao maven. Ele pode ser adicionado em qualquer projeto, independente do back-end ser Java, Node, etc.</p>
 <p>Imagina que você tem um projeto html/javascript e precisa ficar fazendo download manual de todos os scripts/dependências que seu sistema utiliza. E o ciclo se repete a cada nova versão de uma dependência. Isso é trabalhoso e improdutivo.</p>
 <p>Com o bower, você pode adicionar uma nova dependência configurando um único arquivo (bower.json) ou simplesmente digitar um comando no prompt do windows.</p>
 <a id="more"></a>
@@ -89,7 +90,8 @@
 <p>Obrigado, até o próximo post.</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="Por_que_utilizar_o_bower?">Por que utilizar o bower?</h2><p>Sabe como funciona o MAVEN para gerenciamento de dependências Java? Pois bem, o bower é uma ferramenta de gerenciamento de dependências de projetos client-side, similar ao maven. Ele pode ser adicionado em qualquer projeto, independente do back-end ser Java, Node, etc.</p>
+    <![CDATA[<p><img src="/Iniciando-com-bower/banner.jpg" alt=""></p>
+<h2 id="Por_que_utilizar_o_bower?">Por que utilizar o bower?</h2><p>Sabe como funciona o MAVEN para gerenciamento de dependências Java? Pois bem, o bower é uma ferramenta de gerenciamento de dependências de projetos client-side, similar ao maven. Ele pode ser adicionado em qualquer projeto, independente do back-end ser Java, Node, etc.</p>
 <p>Imagina que você tem um projeto html/javascript e precisa ficar fazendo download manual de todos os scripts/dependências que seu sistema utiliza. E o ciclo se repete a cada nova versão de uma dependência. Isso é trabalhoso e improdutivo.</p>
 <p>Com o bower, você pode adicionar uma nova dependência configurando um único arquivo (bower.json) ou simplesmente digitar um comando no prompt do windows.</p>]]>
     
