@@ -8,7 +8,7 @@
     <link>jullierme.github.io//</link>
     <atom:link href="/atom.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[Meu blog sobre angularjs, java e coisas que gosto:)]]></description>
-    <pubDate>Thu, 31 Dec 2015 16:02:23 GMT</pubDate>
+    <pubDate>Thu, 31 Dec 2015 16:03:48 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -18,7 +18,7 @@
       <pubDate>Thu, 31 Dec 2015 02:00:00 GMT</pubDate>
       <description>
       <![CDATA[<p>Essa dica é pra quem deseja alterar a cor de fundo do componente de Toast, pois, por padrão, ele possui apenas a cor preta.</p>
-<p>!(<a href="https://lh3.googleusercontent.com/-CDp6kaf5ckg/VoQYaMXKJ1I/AAAAAAABT00/dGVlb-V4yB8/s0/registro+salvo+com+sucesso.png">https://lh3.googleusercontent.com/-CDp6kaf5ckg/VoQYaMXKJ1I/AAAAAAABT00/dGVlb-V4yB8/s0/registro+salvo+com+sucesso.png</a> “registro salvo com sucesso.png”)</p>
+<p><img src="https://lh3.googleusercontent.com/-CDp6kaf5ckg/VoQYaMXKJ1I/AAAAAAABT00/dGVlb-V4yB8/s0/registro+salvo+com+sucesso.png" alt="" title="registro salvo com sucesso.png"></p>
 <p>A ideia seria contextualizar o componente para exibir mensagens por tipo.</p>
 <p>Ex:</p>
 <ul>
@@ -30,7 +30,7 @@
       
       </description>
       <content:encoded><![CDATA[<p>Essa dica é pra quem deseja alterar a cor de fundo do componente de Toast, pois, por padrão, ele possui apenas a cor preta.</p>
-<p>!(<a href="https://lh3.googleusercontent.com/-CDp6kaf5ckg/VoQYaMXKJ1I/AAAAAAABT00/dGVlb-V4yB8/s0/registro+salvo+com+sucesso.png" target="_blank" rel="external">https://lh3.googleusercontent.com/-CDp6kaf5ckg/VoQYaMXKJ1I/AAAAAAABT00/dGVlb-V4yB8/s0/registro+salvo+com+sucesso.png</a> “registro salvo com sucesso.png”)</p>
+<p><img src="https://lh3.googleusercontent.com/-CDp6kaf5ckg/VoQYaMXKJ1I/AAAAAAABT00/dGVlb-V4yB8/s0/registro+salvo+com+sucesso.png" alt="" title="registro salvo com sucesso.png"></p>
 <p>A ideia seria contextualizar o componente para exibir mensagens por tipo.</p>
 <p>Ex:</p>
 <ul>
@@ -46,19 +46,19 @@
 <p>Agora é só acionar o toast, definindo o ‘theme’ da mensagem.</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$mdToast.show(</span><br><span class="line">	$mdToast.simple()</span><br><span class="line">		.theme(<span class="string">'green'</span>)<span class="comment">//&lt;-- Segunda parte do truque</span></span><br><span class="line">		.content(<span class="string">'Registro salvo com sucesso'</span>);</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
 <p>Resultado:</p>
-<p>!(<a href="https://lh3.googleusercontent.com/-uCNoqDvQBm8/VoQYjjVT5SI/AAAAAAABT1A/0zqJP6QxYoM/s0/registro+salvo+com+sucesso+verde.png" target="_blank" rel="external">https://lh3.googleusercontent.com/-uCNoqDvQBm8/VoQYjjVT5SI/AAAAAAABT1A/0zqJP6QxYoM/s0/registro+salvo+com+sucesso+verde.png</a> “registro salvo com sucesso verde.png”)</p>
+<p><img src="https://lh3.googleusercontent.com/-uCNoqDvQBm8/VoQYjjVT5SI/AAAAAAABT1A/0zqJP6QxYoM/s0/registro+salvo+com+sucesso+verde.png" alt="" title="registro salvo com sucesso verde.png"></p>
 <hr>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$mdToast.show(</span><br><span class="line">	$mdToast.simple()</span><br><span class="line">		.theme(<span class="string">'orange'</span>)</span><br><span class="line">		.content(<span class="string">'Atenção, preencha os campos obrigatórios'</span>);</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
 <p>Resultado:</p>
-<p>!(<a href="https://lh3.googleusercontent.com/-U3cIfhGVEBw/VoQYrND6zQI/AAAAAAABT1M/CUWfnuU3YDE/s0/alerta.png" target="_blank" rel="external">https://lh3.googleusercontent.com/-U3cIfhGVEBw/VoQYrND6zQI/AAAAAAABT1M/CUWfnuU3YDE/s0/alerta.png</a> “alerta.png”)</p>
+<p><img src="https://lh3.googleusercontent.com/-U3cIfhGVEBw/VoQYrND6zQI/AAAAAAABT1M/CUWfnuU3YDE/s0/alerta.png" alt="" title="alerta.png"></p>
 <hr>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$mdToast.show(</span><br><span class="line">	$mdToast.simple()</span><br><span class="line">		.theme(<span class="string">'red'</span>)</span><br><span class="line">		.content(<span class="string">'Erro a tentar executar a operação XYZ'</span>);</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
 <p>Resultado:</p>
-<p>!(<a href="https://lh3.googleusercontent.com/-JCyTvGS6Wkc/VoQYwO79nrI/AAAAAAABT1Y/eP7EAtVNREs/s0/erro.png" target="_blank" rel="external">https://lh3.googleusercontent.com/-JCyTvGS6Wkc/VoQYwO79nrI/AAAAAAABT1Y/eP7EAtVNREs/s0/erro.png</a> “erro.png”)</p>
+<p><img src="https://lh3.googleusercontent.com/-JCyTvGS6Wkc/VoQYwO79nrI/AAAAAAABT1Y/eP7EAtVNREs/s0/erro.png" alt="" title="erro.png"></p>
 <hr>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$mdToast.show(</span><br><span class="line">	$mdToast.simple()</span><br><span class="line">		.theme(<span class="string">'blue'</span>)</span><br><span class="line">		.content(<span class="string">'Você possui uma nova mensagem'</span>);</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
 <p>Resultado:</p>
-<p>!(<a href="https://lh3.googleusercontent.com/-Q9mn8iqfBOo/VoQY3bKjShI/AAAAAAABT1w/mbr_NtCaV6k/s0/informacao.png" target="_blank" rel="external">https://lh3.googleusercontent.com/-Q9mn8iqfBOo/VoQY3bKjShI/AAAAAAABT1w/mbr_NtCaV6k/s0/informacao.png</a> “informacao.png”)</p>
+<p><img src="https://lh3.googleusercontent.com/-Q9mn8iqfBOo/VoQY3bKjShI/AAAAAAABT1w/mbr_NtCaV6k/s0/informacao.png" alt="" title="informacao.png"></p>
 <hr>
 <p>Lembrando que sua app pode estar utilizando qualquer outro tema. A propriedade ‘theme’ do toasd irá afetar apenas a mensagem naquele exato momento.</p>
 <hr>
